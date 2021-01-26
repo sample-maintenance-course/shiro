@@ -21,6 +21,8 @@
 *.iws
 .idea/
 
+.env
+
 #
 # Eclipse metadata.
 #

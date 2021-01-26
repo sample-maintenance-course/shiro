@@ -66,6 +66,11 @@
 
     <properties>
 
+        <sonar.projectKey>sample-maintenance-course_shiro</sonar.projectKey>
+        <sonar.moduleKey>${artifactId}</sonar.moduleKey>
+        <sonar.organization>sample-maintenance-course</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
         <shiro.previousVersion>1.6.0</shiro.previousVersion>
         <!-- Replaced by the build number plugin at build time: -->
         <buildNumber>${user.name}-${maven.build.timestamp}</buildNumber>
